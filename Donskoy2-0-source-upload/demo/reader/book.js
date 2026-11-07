@@ -1,23 +1,23 @@
 "use strict";
 const el = id => document.getElementById(id);
-const languages = {ru:"Русский", ua:"Українська", en:"English"};
-const layers = {earth:"Земля", heaven:"Небо"};
+const languages = {ru:"Р СѓСЃСЃРєРёР№", ua:"РЈРєСЂР°С—РЅСЃСЊРєР°", en:"English"};
+const layers = {earth:"Р—РµРјР»СЏ", heaven:"РќРµР±Рѕ"};
 const controls = Object.fromEntries(["decrease","increase","theme"].map(id => [id, el(id)]));
 createDisplayController({controls});
 
 function validate(chunks) {
-  if (!Array.isArray(chunks) || !chunks.length) throw Error("Нужен массив фрагментов.");
+  if (!Array.isArray(chunks) || !chunks.length) throw Error("РќСѓР¶РµРЅ РјР°СЃСЃРёРІ С„СЂР°РіРјРµРЅС‚РѕРІ.");
   const keys = new Set();
   for (const c of chunks) {
-    if (!c || !Number.isInteger(c.chapter) || c.chapter < 1 || !Object.hasOwn(layers,c.layer)) throw Error("Проверьте номер главы и слой.");
+    if (!c || !Number.isInteger(c.chapter) || c.chapter < 1 || !Object.hasOwn(layers,c.layer)) throw Error("РџСЂРѕРІРµСЂСЊС‚Рµ РЅРѕРјРµСЂ РіР»Р°РІС‹ Рё СЃР»РѕР№.");
     const key = c.chapter + "/" + c.layer;
-    if (keys.has(key)) throw Error("Глава и слой повторяются.");
+    if (keys.has(key)) throw Error("Р“Р»Р°РІР° Рё СЃР»РѕР№ РїРѕРІС‚РѕСЂСЏСЋС‚СЃСЏ.");
     keys.add(key);
     for (const lang of Object.keys(languages)) {
-      if (!Array.isArray(c[lang]) || !c[lang].length) throw Error("Нужны три перевода.");
+      if (!Array.isArray(c[lang]) || !c[lang].length) throw Error("РќСѓР¶РЅС‹ С‚СЂРё РїРµСЂРµРІРѕРґР°.");
       for (const line of c[lang]) {
-        if (typeof line?.text !== "string") throw Error("У строки отсутствует текст.");
-        if (line.colors && !(Array.isArray(line.colors) && line.colors.length === 2 && line.colors.every(v => /^#[0-9a-f]{6}$/i.test(v)))) throw Error("Неверная палитра.");
+        if (typeof line?.text !== "string") throw Error("РЈ СЃС‚СЂРѕРєРё РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ С‚РµРєСЃС‚.");
+        if (line.colors && !(Array.isArray(line.colors) && line.colors.length === 2 && line.colors.every(v => /^#[0-9a-f]{6}$/i.test(v)))) throw Error("РќРµРІРµСЂРЅР°СЏ РїР°Р»РёС‚СЂР°.");
       }
     }
   }
@@ -43,7 +43,6 @@ function render() {
   const current = edition.find(c => c.chapter === Number(el("chapter").value) && c.layer === el("layer").value);
   const pages = [];
   for (const [lang,name] of Object.entries(languages)) {
-    if (el("language").value !== "all" && lang !== el("language").value) continue;
     const section = document.createElement("section");
     section.lang = lang === "ua" ? "uk" : lang;
     const title = document.createElement("h2"); title.textContent = name; section.append(title);
@@ -63,14 +62,14 @@ function render() {
   el("pages").replaceChildren(...pages);
 }
 el("chapter").addEventListener("change",selectChapter);
-for (const id of ["language","layer"]) el(id).addEventListener("change",render);
+el("layer").addEventListener("change",render);
 async function openFile(file) {
   if (!file) return;
   try {
-    if (file.size > 16*1024*1024) throw Error("Файл больше 16 МБ.");
+    if (file.size > 16*1024*1024) throw Error("Р¤Р°Р№Р» Р±РѕР»СЊС€Рµ 16 РњР‘.");
     edition = validate(JSON.parse(await file.text()));
     chapters(); el("status").textContent = file.name;
-  } catch (e) { el("status").textContent = "Не удалось открыть JSON. " + e.message; }
+  } catch (e) { el("status").textContent = "РќРµ СѓРґР°Р»РѕСЃСЊ РѕС‚РєСЂС‹С‚СЊ JSON. " + e.message; }
 }
 el("file").addEventListener("change",e => openFile(e.target.files[0]));
 document.addEventListener("dragover",e => { if (e.dataTransfer.types.includes("Files")) e.preventDefault(); });
