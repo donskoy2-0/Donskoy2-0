@@ -1,0 +1,8 @@
+{
+  "schema": "donskoy.publication-seo.v1",
+  "title": "Protocol Donskoy 2.0 | Interactive Novel",
+  "name": "Protocol Donskoy 2.0",
+  "description": "A multilingual interactive novel exploring Dmitry Donskoy, history, memory and the search for truth. Read in English, Russian or Ukrainian.",
+  "image_alt": "Protocol Donskoy 2.0 — official artwork for the interactive novel",
+  "in_language": ["en", "ru", "uk"]
+}

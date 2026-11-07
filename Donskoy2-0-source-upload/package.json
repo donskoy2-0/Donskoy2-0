@@ -1,0 +1,13 @@
+{
+  "name": "donskoy-reader",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/kernel/*.test.mjs tests/runtime/*.test.mjs",
+    "build": "node scripts/build-pages-shell.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
