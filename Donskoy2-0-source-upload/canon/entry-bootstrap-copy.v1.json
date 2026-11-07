@@ -1,0 +1,301 @@
+{
+  "schema": "donskoy.entry-bootstrap-copy.v1",
+  "version": 1,
+  "status": "CURRENT_OWNER_APPROVED",
+  "languages": [
+    "ru",
+    "en",
+    "ua"
+  ],
+  "ui_order": [
+    "ru",
+    "en",
+    "ua"
+  ],
+  "ui_labels": {
+    "ru": "RU",
+    "en": "EN",
+    "ua": "UA"
+  },
+  "default_language": "en",
+  "fallback_language": null,
+  "entry": {
+    "authority": "CURRENT_OWNER_APPROVED_COPY",
+    "ru": {
+      "subtitle": "интерактивный роман",
+      "heading": "ПРОТОКОЛ ГОТОВ К ЗАПУСКУ",
+      "paragraphs": [
+        "Продолжая, вы подтверждаете, что являетесь живым человеком.",
+        "Ваши персональные данные автору не нужны. Мы не просим имя, почту или регистрацию. Сохраняются только обезличенные события взаимодействия и время их совершения — исключительно для статистики.",
+        "Авторские права здесь почти беззащитны.\nНо мы старались.",
+        "Для запуска протокола подтвердите, что вы человек."
+      ]
+    },
+    "en": {
+      "subtitle": "interactive novel",
+      "heading": "PROTOCOL READY TO START",
+      "paragraphs": [
+        "By continuing, you confirm that you are a living human being.",
+        "The author does not need your personal data. We do not ask for your name, email address, or registration. Only anonymized interaction events and the time at which they occur are retained, exclusively for statistical purposes.",
+        "Copyright is almost defenseless here.\nBut we tried.",
+        "To start the protocol, confirm that you are human."
+      ]
+    },
+    "ua": {
+      "subtitle": "інтерактивний роман",
+      "heading": "ПРОТОКОЛ ГОТОВИЙ ДО ЗАПУСКУ",
+      "paragraphs": [
+        "Продовжуючи, ви підтверджуєте, що є живою людиною.",
+        "Ваші персональні дані автору не потрібні. Ми не просимо ім’я, електронну пошту чи реєстрацію. Зберігаються лише знеособлені події взаємодії та час їх здійснення — виключно для статистики.",
+        "Авторські права тут майже беззахисні.\nАле ми намагалися.",
+        "Для запуску протоколу підтвердьте, що ви людина."
+      ]
+    }
+  },
+  "entry_accept": {
+    "authority": "CURRENT_OWNER_APPROVED_COPY",
+    "provider": "CLOUDFLARE_TURNSTILE",
+    "provider_surface": "AUTOMATIC_HUMAN_CANDIDATE",
+    "provider_success_is_consent": false,
+    "selector_locked_when_attempt_begins": true,
+    "explicit_action_required": true,
+    "action": {
+      "semantic_id": "ENTRY_ACCEPT",
+      "ru": "НАЧАТЬ",
+      "en": "START",
+      "ua": "ПОЧАТИ"
+    },
+    "server_verification": "REQUIRED_INSIDE_ENTRY_ACCEPT",
+    "authority_birth": "ONLY_AFTER_ACCEPTED_SERVER_COMMIT"
+  },
+  "entry_states": {
+    "authority": {
+      "ru": "CURRENT_OWNER_APPROVED_COPY",
+      "en": "CURRENT_OWNER_APPROVED_COPY",
+      "ua": "CURRENT_OWNER_APPROVED_COPY"
+    },
+    "checking_session": {
+      "ru": "ПРОВЕРКА СЕССИИ",
+      "en": "CHECKING SESSION",
+      "ua": "ПЕРЕВІРКА СЕСІЇ"
+    },
+    "ready": {
+      "ru": "ГОТОВО",
+      "en": "READY",
+      "ua": "ГОТОВО"
+    },
+    "human_required": {
+      "ru": "НУЖНО ПОДТВЕРДИТЬ, ЧТО ВЫ ЧЕЛОВЕК",
+      "en": "HUMAN REQUIRED",
+      "ua": "ПОТРІБНО ПІДТВЕРДИТИ, ЩО ВИ ЛЮДИНА"
+    },
+    "committing": {
+      "ru": "ПРИМЕНЕНИЕ",
+      "en": "COMMITTING",
+      "ua": "ЗАСТОСУВАННЯ"
+    },
+    "handoff": {
+      "ru": "ЗАПУСК РИДЕРА",
+      "en": "HANDOFF",
+      "ua": "ЗАПУСК РІДЕРА"
+    },
+    "entry_unavailable": {
+      "ru": "ВХОД НЕДОСТУПЕН",
+      "en": "ENTRY UNAVAILABLE",
+      "ua": "ВХІД НЕДОСТУПНИЙ"
+    },
+    "reader_unavailable_reload": {
+      "ru": "РИДЕР НЕДОСТУПЕН — ПЕРЕЗАГРУЗИТЕ",
+      "en": "READER UNAVAILABLE — RELOAD",
+      "ua": "РІДЕР НЕДОСТУПНИЙ — ПЕРЕЗАВАНТАЖТЕ"
+    },
+    "session_check_unavailable_reload": {
+      "ru": "НЕ УДАЛОСЬ ПРОВЕРИТЬ СЕССИЮ — ПЕРЕЗАГРУЗИТЕ",
+      "en": "SESSION CHECK UNAVAILABLE — RELOAD",
+      "ua": "НЕ ВДАЛОСЯ ПЕРЕВІРИТИ СЕСІЮ — ПЕРЕЗАВАНТАЖТЕ"
+    }
+  },
+  "bootstrap": {
+    "machine": {
+      "authority": "CURRENT_REPOSITORY_INVARIANT",
+      "lines": [
+        "OPENID 2.0",
+        "runtime.mount(BOOTSTRAP)",
+        "OBSERVER-EXTERNAL .... PRESENT",
+        "HUMAN-VERIFIED ...... TRUE",
+        "STORY-SESSION ....... ACTIVE",
+        "PRIVILEGES .......... READ / CONFIRM",
+        "character.generate()",
+        "observer_external.action(\"BOOTSTRAP_APPLY_CHARACTER\")",
+        "character.bind(ARKADY_LEVSHIN)",
+        "commit(\"bootstrap.character.applied\")",
+        "story.mount(\"CHAPTER_01\")",
+        "status = READY"
+      ],
+      "stable_character_id": "ARKADY_LEVSHIN"
+    },
+    "character": {
+      "authority": {
+        "ru": "CURRENT_OWNER_APPROVED_COPY",
+        "en": "CURRENT_OWNER_APPROVED_COPY",
+        "ua": "CURRENT_OWNER_APPROVED_COPY"
+      },
+      "ru": {
+        "name_label": "ИМЯ",
+        "name": "АРКАДИЙ ИГНАТЬЕВИЧ ЛЕВШИН",
+        "class_label": "КЛАСС",
+        "class": "ГРАЖДАНСКИЙ СПЕЦИАЛИСТ",
+        "discipline_label": "СПЕЦИАЛИЗАЦИЯ",
+        "discipline": "ИСТОРИЯ / БИОАРХЕОЛОГИЯ",
+        "status_label": "СТАТУС",
+        "status": "ДОСТУПЕН",
+        "traits": {
+          "precision": {
+            "label": "ТОЧНОСТЬ",
+            "value": 9
+          },
+          "curiosity": {
+            "label": "ЛЮБОЗНАТЕЛЬНОСТЬ",
+            "value": 8
+          },
+          "skepticism": {
+            "label": "СКЕПТИЦИЗМ",
+            "value": 8
+          },
+          "patience": {
+            "label": "ТЕРПЕНИЕ",
+            "value": 6
+          },
+          "compliance": {
+            "label": "ПОКЛАДИСТОСТЬ",
+            "value": 2
+          },
+          "self_preservation": {
+            "label": "САМОСОХРАНЕНИЕ",
+            "value": 4
+          }
+        },
+        "bio_label": "БИО:",
+        "bio": [
+          "историк / биоархеолог",
+          "человеческие останки; средневековые христианские захоронения;",
+          "травмы; атрибуция; происхождение; документирование"
+        ],
+        "prompt": "ПРИМЕНИТЬ ПЕРСОНАЖА К ИСТОРИИ?",
+        "action_label": "ПРИМЕНИТЬ"
+      },
+      "en": {
+        "name_label": "NAME",
+        "name": "ARKADY IGNATIEVICH LEVSHIN",
+        "class_label": "CLASS",
+        "class": "CIVILIAN SPECIALIST",
+        "discipline_label": "DISCIPLINE",
+        "discipline": "HISTORY / BIOARCHAEOLOGY",
+        "status_label": "STATUS",
+        "status": "AVAILABLE",
+        "traits": {
+          "precision": {
+            "label": "PRECISION",
+            "value": 9
+          },
+          "curiosity": {
+            "label": "CURIOSITY",
+            "value": 8
+          },
+          "skepticism": {
+            "label": "SKEPTICISM",
+            "value": 8
+          },
+          "patience": {
+            "label": "PATIENCE",
+            "value": 6
+          },
+          "compliance": {
+            "label": "COMPLIANCE",
+            "value": 2
+          },
+          "self_preservation": {
+            "label": "SELF-PRESERVATION",
+            "value": 4
+          }
+        },
+        "bio_label": "BIO:",
+        "bio": [
+          "historian / bioarchaeologist",
+          "human remains; medieval Christian burials;",
+          "trauma; attribution; provenance; documentation"
+        ],
+        "prompt": "APPLY CHARACTER TO STORY?",
+        "action_label": "APPLY"
+      },
+      "ua": {
+        "name_label": "ІМ'Я",
+        "name": "АРКАДІЙ ІГНАТІЙОВИЧ ЛЕВШИН",
+        "class_label": "КЛАС",
+        "class": "ЦИВІЛЬНИЙ ФАХІВЕЦЬ",
+        "discipline_label": "СПЕЦІАЛІЗАЦІЯ",
+        "discipline": "ІСТОРІЯ / БІОАРХЕОЛОГІЯ",
+        "status_label": "СТАТУС",
+        "status": "ДОСТУПНИЙ",
+        "traits": {
+          "precision": {
+            "label": "ТОЧНІСТЬ",
+            "value": 9
+          },
+          "curiosity": {
+            "label": "ДОПИТЛИВІСТЬ",
+            "value": 8
+          },
+          "skepticism": {
+            "label": "СКЕПТИЦИЗМ",
+            "value": 8
+          },
+          "patience": {
+            "label": "ТЕРПІННЯ",
+            "value": 6
+          },
+          "compliance": {
+            "label": "ПОКІРНІСТЬ",
+            "value": 2
+          },
+          "self_preservation": {
+            "label": "САМОЗБЕРЕЖЕННЯ",
+            "value": 4
+          }
+        },
+        "bio_label": "БІО:",
+        "bio": [
+          "історик / біоархеолог",
+          "людські останки; середньовічні християнські поховання;",
+          "травми; атрибуція; походження; документування"
+        ],
+        "prompt": "ЗАСТОСУВАТИ ПЕРСОНАЖА ДО ІСТОРІЇ?",
+        "action_label": "ЗАСТОСУВАТИ"
+      },
+      "semantic_action_id": "CH01_BOOTSTRAP.APPLY"
+    }
+  },
+  "first_story": {
+    "authority": "docs/clean-runtime-freeze/canonical-scenes.v1.json",
+    "release_id": 114009,
+    "pre_scene_gate": "CH01_BOOTSTRAP",
+    "cursor_scene_id": "ch01.earth.packet.001",
+    "story_block": "01-1",
+    "layer": "EARTH",
+    "language_source": "accepted_reader_authority",
+    "language_unlock_condition": "FIRST_STORY_MOUNTED"
+  },
+  "telemetry": {
+    "authority": "docs/clean-runtime-freeze/telemetry-map.v1.json",
+    "authority_order": "domain commit before telemetry consequence",
+    "fail_open": true,
+    "human_verified": "system(captcha:verified)",
+    "entry_accept": "system(language:<applied>)",
+    "runtime_started": "system(runtime:started)",
+    "first_story_start": "story(01-1,start)",
+    "first_story_finish": "story(01-1,finish)",
+    "bootstrap_apply": "choice(CH01_BOOTSTRAP.APPLY)",
+    "set_language": "system(language:<applied>)"
+  },
+  "owner_freeze_required": []
+}

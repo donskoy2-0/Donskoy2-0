@@ -1,0 +1,18 @@
+/* S8: presentation-only SYSTEM syntax accents. */
+.system-syntax--field { color: #8fb6df; }
+.system-syntax--function { color: #c2a5e8; }
+.system-syntax--constant { color: #7fc9c5; }
+.system-syntax--string { color: #d9bb7f; }
+.system-syntax--number { color: #df9d91; }
+.system-syntax--keyword { color: #d6a3ca; }
+.system-syntax--operator { color: #778692; }
+.system-syntax--danger { color: #e1847c; }
+
+:root[data-theme="light"] .system-syntax--field { color: #345e86; }
+:root[data-theme="light"] .system-syntax--function { color: #684b88; }
+:root[data-theme="light"] .system-syntax--constant { color: #276a67; }
+:root[data-theme="light"] .system-syntax--string { color: #7b5b1f; }
+:root[data-theme="light"] .system-syntax--number { color: #88483e; }
+:root[data-theme="light"] .system-syntax--keyword { color: #79466f; }
+:root[data-theme="light"] .system-syntax--operator { color: #657078; }
+:root[data-theme="light"] .system-syntax--danger { color: #993e35; }

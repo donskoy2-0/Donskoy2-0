@@ -1,0 +1,36 @@
+.reader-block__speaker-turn {
+  --speaker-accent: var(--speaker-accent-dark, #9da7b0);
+}
+
+.chapter-section--earth .reader-block__speaker-turn[data-speaker] {
+  color: var(--speaker-accent);
+}
+
+:root[data-theme="light"] .chapter-section--earth .reader-block__speaker-turn[data-speaker] {
+  --speaker-accent: var(--speaker-accent-light, #4b555c);
+}
+
+.chapter-section--earth .reader-block__document-text {
+  color: var(--reader-muted);
+}
+
+/* S7 speaker accents are Layer-1/Earth presentation only. */
+.chapter-section--heaven .reader-block--dialogue[data-speaker],
+.chapter-section--heaven .reader-block--verse[data-speaker] {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.chapter-section--heaven .reader-block[data-speaker] .reader-block__text,
+.chapter-section--heaven .reader-block__speaker-turn[data-speaker] {
+  color: inherit;
+}
+
+/* CH11 court play: name only; speech and punctuation stay neutral. */
+.chapter-section--heaven .reader-block__court-label[data-speaker] {
+  color: var(--speaker-accent-dark);
+  font-weight: 600;
+}
+:root[data-theme="light"] .chapter-section--heaven .reader-block__court-label[data-speaker] {
+  color: var(--speaker-accent-light);
+}

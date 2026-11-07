@@ -1,0 +1,106 @@
+{
+  "schema": "donskoy.reader-ui-copy.v1",
+  "status": "CURRENT_OWNER_APPROVED_COPY",
+  "copy": {
+    "continue": {
+      "ru": "ПРОДОЛЖИТЬ",
+      "en": "CONTINUE",
+      "ua": "ПРОДОВЖИТИ"
+    },
+    "CH01_HEAVEN.UNDERSTOOD": {
+      "ru": "ЗАГРУЗИТЬ",
+      "en": "LOAD",
+      "ua": "ЗАВАНТАЖИТИ"
+    },
+    "CH01_EXIT.TRANSITION": {
+      "ru": "ПЕРЕЙТИ",
+      "en": "PROCEED",
+      "ua": "ПЕРЕЙТИ"
+    },
+    "CH02_EVIDENCE.OPEN_EVIDENCE_CONTEXT": {
+      "ru": "ДА",
+      "en": "YES",
+      "ua": "ТАК"
+    },
+    "CH02_HEAVEN.OPEN_LINKED_CONTEXT": {
+      "ru": "ПРОЧИТАТЬ",
+      "en": "READ",
+      "ua": "ПРОЧИТАТИ"
+    },
+    "CH03_HEAVEN.OPEN_LINKED_CONTEXT": {
+      "ru": "СМОТРЕТЬ",
+      "en": "LOOK",
+      "ua": "ДИВИТИСЯ"
+    },
+    "CH04_PROCEDURE.OPEN_SEPARATION_MODEL": {
+      "ru": "ОТДЕЛИТЬ",
+      "en": "SEPARATE",
+      "ua": "ВІДОКРЕМИТИ"
+    },
+    "CH04_HEAVEN.CROSSCHECK_LINKED_CHAINS": {
+      "ru": "СВЕРИТЬ",
+      "en": "CROSS-CHECK",
+      "ua": "ЗВІРИТИ"
+    },
+    "CH05_ROUTE.OPEN_ROUTE_SEGMENT_MODEL": {
+      "ru": "ОТКРЫТЬ",
+      "en": "OPEN",
+      "ua": "ВІДКРИТИ"
+    },
+    "CH05_RELATION.COMPARE_RELATION_MODEL": {
+      "ru": "СРАВНИТЬ",
+      "en": "COMPARE",
+      "ua": "ПОРІВНЯТИ"
+    },
+    "CH06_FORWARD.OPEN_ROUTE_CONTEXT": {
+      "ru": "ПОКАЗАТЬ",
+      "en": "SHOW",
+      "ua": "ПОКАЗАТИ"
+    },
+    "CH06_CLASSIFICATION.COMPARE_CLASSIFICATION_CONTEXT": {
+      "ru": "ЧИТАТЬ",
+      "en": "READ",
+      "ua": "ЧИТАТИ"
+    },
+    "CH07_FIELD_VERIFY.VERIFY_FIELD_MODEL": {
+      "ru": "ПРОВЕРИТЬ",
+      "en": "VERIFY",
+      "ua": "ПЕРЕВІРИТИ"
+    },
+    "CH08_FIELD_OBSERVATION.OPEN_FIELD_OBSERVATION": {
+      "ru": "ОТКРЫТЬ",
+      "en": "OPEN",
+      "ua": "ВІДКРИТИ"
+    },
+    "CH08_FIELD_MODEL.SHOW_FIELD_MODEL": {
+      "ru": "ПОКАЗАТЬ",
+      "en": "SHOW",
+      "ua": "ПОКАЗАТИ"
+    },
+    "CH09_CUSTODY.DISTINGUISH_CUSTODY_MODEL": {
+      "ru": "СОХРАНИТЬ",
+      "en": "SAVE",
+      "ua": "ЗБЕРЕГТИ"
+    },
+    "CH10_INHERITED_GATE.ANALYZE_INHERITED_GATE_MODEL": {
+      "ru": "ИЗУЧИТЬ",
+      "en": "STUDY",
+      "ua": "ВИВЧИТИ"
+    },
+    "CH11_RELATION.CORRELATE_RELATION_PATTERN": {
+      "ru": "СОПОСТАВИТЬ",
+      "en": "CORRELATE",
+      "ua": "ЗІСТАВИТИ"
+    },
+    "CH12_FINAL_CONTEXT.COMPARE_FINAL_CONTEXT": {
+      "ru": "СВЕРИТЬ",
+      "en": "CROSS-CHECK",
+      "ua": "ЗВІРИТИ"
+    },
+    "FINAL_ACK_CH12.WITNESS_COMPLETION": {
+      "ru": "СВИДЕТЕЛЬСТВОВАТЬ",
+      "en": "WITNESS",
+      "ua": "СВІДЧИТИ"
+    }
+  }
+}

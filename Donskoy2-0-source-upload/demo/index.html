@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; img-src 'self' file:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Донской 2.0 · Читалка</title>
+<link rel="stylesheet" href="./reader/book.css">
+<body><header><div class="mast"><span>Дмитрий Иванович Филатов</span><a href="https://donskoy2-0.pages.dev/" rel="noreferrer">Читать книгу ↗</a></div><h1>Донской <i>2.0</i></h1></header>
+<nav aria-label="Настройки чтения"><label>Глава <select id="chapter"></select></label><label>Слой <select id="layer"></select></label><label>Язык <select id="language"><option value="all">Все три</option><option value="ru">RU</option><option value="ua">UA</option><option value="en">EN</option></select></label>
+<button type="button" id="decrease" aria-label="Уменьшить текст">A−</button><button type="button" id="increase" aria-label="Увеличить текст">A+</button><button type="button" id="theme" aria-label="Сменить тему"><span data-theme-icon></span></button></nav>
+<main id="pages"></main>
+<footer><a href="../license/ru.html">Право на чтение 1.0</a><label class="file">Открыть JSON <input id="file" type="file" accept=".json,application/json"></label><span id="status" role="status"></span></footer>
+<script type="application/json" id="edition">[{"chapter":1,"layer":"earth","ru":[{"text":"Аркадий Игнатьевич проснулся посреди ночи в собственной постели, сам не зная от чего, и ещё несколько секунд сильно и глупо моргал, пытаясь развеять наваждение. Потом шумно выдохнул, присел на кровати, всунул ноги в поношенные, ещё влажные с вечера тапочки и пошамкал на кухню."}],"ua":[{"text":"Аркадій Ігнатійович прокинувся серед ночі у власному ліжку, сам не знаючи від чого, і ще кілька секунд часто й безглуздо кліпав, намагаючись прогнати ману. Потім шумно видихнув, сів на ліжку, всунув ноги в поношені, ще вологі з вечора капці й почалапав на кухню."}],"en":[{"text":"Arkady Ignatievich woke in his own bed in the middle of the night, with no idea what had woken him, and for several seconds kept blinking hard and stupidly, trying to shake off the vision. Then he exhaled noisily, sat up, pushed his feet into the worn slippers that were still damp from the evening, and shuffled into the kitchen."}]}]</script>
+<script src="./reader/display.js"></script><script src="./reader/book.js"></script>
+</body></html>

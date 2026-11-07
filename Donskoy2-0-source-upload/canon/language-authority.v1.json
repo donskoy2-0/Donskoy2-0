@@ -1,0 +1,58 @@
+{
+  "schema": "donskoy.language-authority.v1",
+  "version": 1,
+  "status": "CURRENT",
+  "languages": [
+    "ru",
+    "en",
+    "ua"
+  ],
+  "ui_labels": {
+    "ru": "RU",
+    "en": "EN",
+    "ua": "UA"
+  },
+  "ui_order": [
+    "ru",
+    "en",
+    "ua"
+  ],
+  "default_language": "en",
+  "law": {
+    "alternate_ukrainian_identifiers_forbidden": true,
+    "runtime_language_ids": [
+      "ru",
+      "en",
+      "ua"
+    ],
+    "api_language_ids": [
+      "ru",
+      "en",
+      "ua"
+    ],
+    "telemetry_language_ids": [
+      "ru",
+      "en",
+      "ua"
+    ],
+    "content_language_ids": [
+      "ru",
+      "en",
+      "ua"
+    ],
+    "bootstrap_language_ids": [
+      "ru",
+      "en",
+      "ua"
+    ],
+    "missing_language_variant": "FAIL_CLOSED",
+    "no_alias_mapping": true
+  },
+  "entry": {
+    "default_presentation_language": "en",
+    "language_selectable_before_human_accept": true,
+    "language_frozen_when_entry_accept_begins": true,
+    "language_remains_frozen_through_bootstrap_and_first_ch01_layer1_mount": true,
+    "reader_language_control_available_after_first_ch01_layer1_mount": true
+  }
+}
