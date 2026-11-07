@@ -17,7 +17,7 @@
 
 ### Локальный запуск
 
-Скачайте репозиторий и откройте [demo/index.html](Donskoy2-0-source-upload/demo/index.html) в браузере. Демо содержит один отрывок в трёх переводах и поддерживает импорт [JSON](Donskoy2-0-source-upload/demo/data/edition.json).
+Скачайте репозиторий и откройте [demo/index.html](Donskoy2-0-source-upload/demo/index.html) в браузере. Демо содержит первые 231 знак земной сцены каждой из 12 глав на русском, украинском и английском и поддерживает импорт [JSON](Donskoy2-0-source-upload/demo/data/edition.json).
 
 Для проверки исходников с Node.js 22 или новее:
 
@@ -27,4 +27,4 @@ npm test
 npm run build
 ```
 
-© 2026 Дмитрий Иванович Филатов (псевдоним). [Право на чтение](Donskoy2-0-source-upload/license/ru.html) · [Право на читання](Donskoy2-0-source-upload/license/ua.html) · [Right to Read](Donskoy2-0-source-upload/license/en.html).
+© 2026 Дмитрий Иванович Филатов (псевдоним). [Right to Read 2.0](Donskoy2-0-source-upload/license/right-to-read-2.0.html).
