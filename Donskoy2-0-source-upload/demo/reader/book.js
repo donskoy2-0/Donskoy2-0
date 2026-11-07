@@ -1,6 +1,6 @@
 "use strict";
 const el = id => document.getElementById(id);
-const languages = {ru:"Russian", ua:"Ukrainian", en:"English"};
+const languages = {ua:"Ukrainian", en:"English", ru:"Russian"};
 const layers = {earth:"Earth", heaven:"Heaven"};
 const controls = Object.fromEntries(["decrease","increase","theme"].map(id => [id, el(id)]));
 createDisplayController({controls});
