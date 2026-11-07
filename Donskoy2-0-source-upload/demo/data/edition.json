@@ -19,6 +19,25 @@
     ]
   },
   {
+    "chapter": 1,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "В Светлом Граде не знали ни ночи, ни бед; там давно был покой и на всё был ответ. Кто земное окончил — тому не вставать, не седлать вороного, дружину не звать. Не трубили на бой, не сходилися в строй; кто свой срок отслужил, тот ве"
+      }
+    ],
+    "ua": [
+      {
+        "text": "У Світлому Граді не знали ні ночі, ні бід; там давно був спокій, і на все був одвіт. Хто земне завершив — тому годі вставати, вороного сідлати, дружину скликати. Не сурмили до бою, не сходилися в стрій; хто свій час відслужив — пов"
+      }
+    ],
+    "en": [
+      {
+        "text": "Bright City knew no night, no grief;\nno sorrow entered there.\nFor every question came reply,\nand Rest lay everywhere.\nWhoever’s earthly work was done\nneed never rise again,\nneed never saddle the black steed,\nneed never call his men"
+      }
+    ]
+  },
+  {
     "chapter": 2,
     "layer": "earth",
     "ru": [
@@ -34,6 +53,25 @@
     "en": [
       {
         "text": "The morning was offensively beautiful.\nAfter a night in which a man with no legs ought at least to have left rain behind him, Moscow produced a clean sky, warm light, and a handful of thin clouds, as though it had deliberately deci"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "По белой дороге Димитрий шагал всё быстрей; ни гонца, ни знамён — только свет без людей. «Где вестник? Где стяг? Коль подняли имя моё — где противник, дружина, где ратное копьё?»\n\nНа краю белой дали качнулась черта; тёмный инок шаг"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Білою дорогою Димитрій ішов дедалі швидше; ні гінця, ні знамен — тільки світ без людей. «Де вісник? Де стяг? Коли ім’я моє підняли — де супротивник, дружина, де ратний спис?»\n\nНа краю білої далечі хитнулася риска; темний інок ступи"
+      }
+    ],
+    "en": [
+      {
+        "text": "Along the white road Dmitry strode,\nand faster grew his pace;\nno herald, no banners—only light,\nno living human face.\n“Where is the herald? Where the standard?\nIf they have raised my name,\nwhere is the foe, where stands the war-ban"
       }
     ]
   },
@@ -57,6 +95,25 @@
     ]
   },
   {
+    "chapter": 3,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "И всё же руки сами вспомнили прежнее. Пересвет стал справа от князя, Ослябя — слева; Боброк отошёл на несколько шагов и, щурясь, оглядел белую даль, будто и здесь можно было сыскать место для засады. Димитрий положил ладонь на меч."
+      }
+    ],
+    "ua": [
+      {
+        "text": "І все ж руки самі згадали колишнє. Пересвіт став праворуч від князя, Ослябя — ліворуч; Боброк відійшов на кілька кроків і, мружачись, оглянув білу далечінь, ніби й тут можна було знайти місце для засідки. Димитрій поклав долоню на "
+      }
+    ],
+    "en": [
+      {
+        "text": "And yet their hands remembered the old order on their own. Peresvet took his place at the prince’s right, Oslyabya at his left; Bobrok moved several paces away and narrowed his eyes at the white distance, as though even here there "
+      }
+    ]
+  },
+  {
     "chapter": 4,
     "layer": "earth",
     "ru": [
@@ -72,6 +129,25 @@
     "en": [
       {
         "text": "Arkady Ignatievich bought the new blue pen at 8:47 in the morning from a newsstand by the metro.\nIt cost ninety rubles, was transparent and graceless, and wrote on the first try. Levshin felt a gratitude toward it wildly disproport"
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Димитрий стоял у бездны.\nСледующего шага не было.\nПотом он появился.\nСзади.\nНоском от края.\nЕщё один.\nПятый не шагнул в пустоту. Пятый повернул назад.\nКнязь отступил. Пересвет, Ослябя и Боброк ждали там, где он их оставил.\nНикто не"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Димитрій стояв біля прірви.\nНаступного кроку не було.\nПотім він з’явився.\nПозаду.\nНоском від краю.\nЩе один.\nП’ятий не ступив у порожнечу. П’ятий повернув назад.\nКнязь відступив. Пересвіт, Ослябя й Боброк чекали там, де він їх залиш"
+      }
+    ],
+    "en": [
+      {
+        "text": "Dmitry stood at the abyss.\nThere was no next step.\nThen one appeared.\nBehind him.\nToe pointing away from the edge.\nAnother.\nThe Fifth had not stepped into the void. The Fifth had turned back.\nThe prince stepped away from the brink."
       }
     ]
   },
@@ -95,6 +171,25 @@
     ]
   },
   {
+    "chapter": 5,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Серый край гремел впереди. Пересвет держал ладонь у меча.\n— Покажи кого.\nДимитрий всматривался долго. Вдали под ударами дрожала земля.\n— Найдём.\nНад дорогой заговорил новый век — сразу сотней голосов:\n— Западная сила.\n— Русские зем"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Сірий край гуркотів попереду. Пересвіт тримав долоню біля меча.\n— Покажи кого.\nДимитрій вдивлявся довго. Вдалині під ударами тремтіла земля.\n— Знайдемо.\nНад дорогою заговорив новий вік — одразу сотнею голосів:\n— Західна сила.\n— Рус"
+      }
+    ],
+    "en": [
+      {
+        "text": "The gray edge thundered ahead. Peresvet kept his hand near his sword.\n“Show me who.”\nDmitry stared for a long while. Far off, the earth shuddered under the blows.\n“We’ll find one.”\nAbove the road the new age began to speak—a hundre"
+      }
+    ]
+  },
+  {
     "chapter": 6,
     "layer": "earth",
     "ru": [
@@ -110,6 +205,25 @@
     "en": [
       {
         "text": "They set out at three oh seven.\nThere was no convoy.\nNo motorcycles, flashing lights, escort vehicles, or people running ahead of the historic event with radios. A gray SUV with dirty doors stood beside the dark building. In the tr"
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Узда ещё висела между чужими руками.\nДимитрий покосился на неё.\n«Сказитель».\n«Чего тебе, княже?»\n«Ты говорил, умеешь слово нового века старым образом показать?»\n«Умею».\n«Тогда покажи, в чьих руках наши».\nСказитель тронул струну.\nНа"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Вузда ще висіла між чужими руками.\nДимитрій скоса глянув на неї.\n«Сказителю».\n«Чого тобі, княже?»\n«Ти казав, умієш слово нового віку давнім образом показати?»\n«Умію».\n«Тоді покажи, в чиїх руках наші».\nСказитель торкнув струну.\nНад "
+      }
+    ],
+    "en": [
+      {
+        "text": "The rein still hung between other hands.\nDmitry glanced at it.\n“Storyteller.”\n“What is it, prince?”\n“You said you could hear the words of the new age and show them in an old shape?”\n“I can.”\n“Then show me whose hands ours are in.”\n"
       }
     ]
   },
@@ -133,6 +247,25 @@
     ]
   },
   {
+    "chapter": 7,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Над полем над белым качалося знамя. Два слова чернели на белом холсте:\nНОВОЕ КУЛИКОВО\n\nТут князь усмехнулся: — Раз поле назвали, Мамая скорее ведите ко мне.\nНе стяг же рубить мне, не ветер, не буквы, не землю, которой придумали имя"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Над полем над білим гойдалося знамено. Два слова чорніли на білім полотні:\nНОВЕ КУЛИКОВЕ\n\nТут князь усміхнувся: — Коли вже поле назвали — Мамая мерщій приведіть-но мені.\nНе стяг же мені рубати, не вітер, не літери, не землю, якій в"
+      }
+    ],
+    "en": [
+      {
+        "text": "Above the white field a banner kept swaying. Two words stood black on the white of the cloth:\nNEW KULIKOVO\n\nThe prince gave a dry smile. “If they’ve named the field already, bring me Mamai.\nI can’t fight a banner, the wind, a word "
+      }
+    ]
+  },
+  {
     "chapter": 8,
     "layer": "earth",
     "ru": [
@@ -148,6 +281,25 @@
     "en": [
       {
         "text": "Arkady Ignatievich woke at five forty-three.\nNo dream.\nNo unfamiliar voice.\nNo 2:57.\nHe opened his eyes, saw the gray canvas of the tent, a fold in the ceiling, the edge of someone else’s cot, and lay still for a while.\nHe looked a"
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Поле ударило в них звуком.\nСначала пришёл свист. Потом земля справа поднялась стеной и закрыла половину неба.\nКоней рвануло в стороны. Передний ряд смешался. Один всадник вылетел из седла, Пересвет поймал его за ворот и швырнул за "
+      }
+    ],
+    "ua": [
+      {
+        "text": "Поле вдарило в них звуком.\nСпершу прийшов свист. Потім земля праворуч піднялася стіною й закрила пів неба.\nКоней рвонуло вбік. Передній ряд змішався. Один вершник вилетів із сідла, Пересвіт упіймав його за комір і жбурнув за гребін"
+      }
+    ],
+    "en": [
+      {
+        "text": "The field hit them with sound.\nFirst came the whistle. Then the ground to their right rose like a wall and shut out half the sky.\nThe horses tore sideways. The front rank fell into disorder. One rider flew from the saddle; Peresvet"
       }
     ]
   },
@@ -171,6 +323,25 @@
     ]
   },
   {
+    "chapter": 9,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "За серым краем ещё гремело.\nЗдесь мечи лежали на земле.\nЛарец шёл своей дорогой. Рядом с ним — пятый след.\nИз дыма вышли люди под новым стягом. Один встал поперёк белого следа. Другой поднял ларец.\nДраться было не с кем. Старая рат"
+      }
+    ],
+    "ua": [
+      {
+        "text": "За сірим краєм іще гриміло.\nТут мечі лежали на землі.\nЛарець ішов своєю дорогою. Поруч із ним — п’ятий слід.\nІз диму вийшли люди під новим стягом. Один став поперек білого сліду. Другий підняв ларець.\nБитися було ні з ким. Стара ра"
+      }
+    ],
+    "en": [
+      {
+        "text": "Beyond the gray edge, it was still thundering.\nHere the swords lay on the ground.\nThe casket went along its own road. Beside it—the Fifth.\nMen came out of the smoke beneath the new banner. One stood across the white trace. Another "
+      }
+    ]
+  },
+  {
     "chapter": 10,
     "layer": "earth",
     "ru": [
@@ -186,6 +357,25 @@
     "en": [
       {
         "text": "Backward had turned out to be a direction without a compass point.\nForty minutes after the last conversation, Arkady Ignatievich already knew that the front was somewhere behind them, but he could no longer tell what was supposed t"
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Две дороги сошлись у высоких каменных врат. Пятый послух остановился перед ними с ларцом. За ним подошёл писец, прижимая к боку свёрнутую грамоту. Киприан ждал у створок; Сергий, Владимир и остальные держались чуть поодаль.\nДимитри"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Дві дороги зійшлися біля високих кам’яних врат. П’ятий послух зупинився перед ними з ларцем. За ним підійшов писець, притискаючи до боку згорнуту грамоту. Кипріян чекав біля стулок; Сергій, Володимир та інші трималися трохи осторон"
+      }
+    ],
+    "en": [
+      {
+        "text": "The two roads met at high stone gates. The Fifth Witness stopped before them with the casket. Behind him came the Scribe, a rolled charter tucked against his side. Cyprian waited by the gate-leaves; Sergius, Vladimir, and the other"
       }
     ]
   },
@@ -209,6 +399,25 @@
     ]
   },
   {
+    "chapter": 11,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Писец прошёл через открытые врата. Под мышкой у него была вчерашняя грамота; у стены лежал дубовый засов, который Димитрий только что вынул из собственных ворот. Пятый послух уже стоял по ту сторону с ларцом. Никто ларец не принял,"
+      }
+    ],
+    "ua": [
+      {
+        "text": "Писець пройшов через відчинені врата. Під пахвою в нього була вчорашня грамота; біля стіни лежав дубовий засув, який Димитрій щойно вийняв із власних воріт. П’ятий послух уже стояв по той бік із ларцем. Ніхто ларця не прийняв, ніхт"
+      }
+    ],
+    "en": [
+      {
+        "text": "The Scribe came through the open gates. Yesterday’s charter was tucked under his arm; against the wall lay the oak bar Dmitry had just lifted from his own gates. The Fifth Witness already stood on the far side with the casket. No o"
+      }
+    ]
+  },
+  {
     "chapter": 12,
     "layer": "earth",
     "ru": [
@@ -224,6 +433,25 @@
     "en": [
       {
         "text": "By noon on Sunday, it became clear that burying a person was harder than taking him to war.\nFor the war they had found a route sheet, clearances, temporary status, an escort order, an order for the order, a case, a seal, a tether, "
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "layer": "heaven",
+    "ru": [
+      {
+        "text": "Пятый послух вошёл в маленькую каменную обитель с ларцом в обеих руках. Дверь за ним оставалась открыта. Никто не подошёл навстречу, никто не протянул ладоней, никто не назвал себя тем, кому теперь надлежит взять ношу.\nОн остановил"
+      }
+    ],
+    "ua": [
+      {
+        "text": "П’ятий послух увійшов до малої кам’яної обителі з ларцем в обох руках. Двері за ним лишалися відчиненими. Ніхто не підійшов назустріч, ніхто не простягнув долонь, ніхто не назвав себе тим, кому тепер належало взяти ношу.\nВін зупини"
+      }
+    ],
+    "en": [
+      {
+        "text": "The Fifth Witness entered the small stone sanctuary, carrying the casket in both hands. The door remained open behind him. No one came forward to meet him, no one held out their hands, no one named himself the one to whom the burde"
       }
     ]
   }
