@@ -17,7 +17,7 @@
 
 ### Локальный запуск
 
-Скачайте репозиторий и откройте [demo/index.html](Donskoy2-0-source-upload/demo/index.html) в браузере. Демо содержит первые 231 знак земной сцены каждой из 12 глав на русском, украинском и английском и поддерживает импорт [JSON](Donskoy2-0-source-upload/demo/data/edition.json).
+Скачайте репозиторий и откройте [demo/index.html](Donskoy2-0-source-upload/demo/index.html) в браузере. Демо содержит первые 231 знак «Земли» и «Неба» каждой из 12 глав на русском, украинском и английском и поддерживает импорт [JSON](Donskoy2-0-source-upload/demo/data/edition.json).
 
 Для проверки исходников с Node.js 22 или новее:
 
