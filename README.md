@@ -1,16 +1,30 @@
-## Hi there 👋
+# Донской 2.0
 
-<!--
-**donskoy2-0/Donskoy2-0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Обложка книги](Donskoy2-0-source-upload/demo/art/cover.webp)
 
-Here are some ideas to get you started:
+**Дмитрий Иванович Филатов** · интерактивный роман · RU / UA / EN
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Читать полную книгу](https://donskoy2-0.pages.dev/) · [Открыть демо](https://donskoy2-0.github.io/Donskoy2-0/)
+
+Антрополог Аркадий Левшин соглашается подтвердить подлинность княжеских останков. Его подпись запускает маршрут, который приведёт его из Архангельского собора к фронту.
+
+### Исходный код
+
+- [Читалка](Donskoy2-0-source-upload/src/reader/) — оформление прозы и диалогов, звук, иллюстрации и блокнот.
+- [Ядро](Donskoy2-0-source-upload/src/kernel/) и [граф сцен](Donskoy2-0-source-upload/canon/) — переходы между главами и возврат к прочитанному.
+- [Клиент](Donskoy2-0-source-upload/src/runtime/) — последовательное чтение и управление состоянием экрана.
+- [Тесты](Donskoy2-0-source-upload/tests/) — переходы, воспроизведение звука и навигация.
+
+### Локальный запуск
+
+Скачайте репозиторий и откройте [demo/index.html](Donskoy2-0-source-upload/demo/index.html) в браузере. Демо содержит один отрывок в трёх переводах и поддерживает импорт [JSON](Donskoy2-0-source-upload/demo/data/edition.json).
+
+Для проверки исходников с Node.js 22 или новее:
+
+```sh
+cd Donskoy2-0-source-upload
+npm test
+npm run build
+```
+
+© 2026 Дмитрий Иванович Филатов (псевдоним). [Право на чтение](Donskoy2-0-source-upload/license/ru.html) · [Право на читання](Donskoy2-0-source-upload/license/ua.html) · [Right to Read](Donskoy2-0-source-upload/license/en.html).
